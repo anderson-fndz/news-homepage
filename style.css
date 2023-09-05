@@ -30,10 +30,18 @@ header {
         "logo . nav";
 }
 
+.menu {
+    display: none;
+}
+
 .logo {
     grid-area: logo;
     display: grid;
     align-content: center;
+}
+
+.menu-modal {
+    display: none;
 }
 
 .header-nav {
@@ -72,6 +80,10 @@ section {
 .section-img img {
     width: 100%;
     height: 100%;
+}
+
+.img-mobile {
+    display: none;
 }
 
 .section-title {
@@ -209,6 +221,7 @@ footer {
 }
 
 @media (max-width: 410px) {
+
     main {
         width: 100vw;
         display: grid;
@@ -224,15 +237,62 @@ footer {
     }
 
     header {
+        width: 95%;
         margin: 0 auto;
+        grid-template-columns: 1fr 1fr 3rem;
+        justify-content: space-between;
+        align-content: center;
+        grid-template-areas:
+            "logo . menu";
     }
 
-    .logo{
-        margin-left: 1.3rem;
+
+    .icon-open {
+        display: grid;
+        grid-area: menu;
+        align-content: center;
+        justify-content: end;
+    }
+
+    .modal-wrapper {
+        display: none;
+        background-color: #0000008e;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        right: 0;
+
+    }
+
+    .menu {
+        width: 60%;
+        height: 100%;
+        background-color: #fff;
+        display: block;
+        position: fixed;
+        right: 0;
+    }
+
+    .icon-close {
+        position: fixed;
+        right: 15px;
+        top: 20px;
     }
 
     .header-nav {
-        display: none;
+        height: 30%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        position: absolute;
+        left: 10%;
+        top: 20%;
+    }
+
+    .header-nav a {
+        font-size: 1.2rem;
+        font-weight: 600;
     }
 
     section {
@@ -253,6 +313,7 @@ footer {
     }
 
     .img-mobile {
+        display: block;
         width: auto;
         height: 100%;
     }
@@ -292,7 +353,7 @@ footer {
         height: 42rem;
     }
 
-    .sidebar{
+    .sidebar {
         width: 90%;
     }
 
@@ -304,11 +365,11 @@ footer {
         font-size: 1.3rem;
     }
 
-    .sidebar-content p{
+    .sidebar-content p {
         font-size: 1rem;
     }
 
-    footer{
+    footer {
         width: 30rem;
         margin: 0 auto;
         grid-template-columns: 1fr;
@@ -316,19 +377,19 @@ footer {
         grid-row-gap: 3rem;
     }
 
-    .footer-box{
+    .footer-box {
         grid-template-columns: 120px 1fr;
     }
 
-    .footer-text span{
+    .footer-text span {
         font-size: 2.5rem;
     }
 
-    .footer-text h4{
+    .footer-text h4 {
         font-size: 1.3rem;
     }
 
-    .footer-text p{
+    .footer-text p {
         font-size: 1rem;
     }
 }

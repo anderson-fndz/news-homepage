@@ -7,6 +7,7 @@
     <title>News Homepage</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -15,13 +16,23 @@
             <div class="logo">
                 <img src="images/logo.svg" alt="logo-img">
             </div>
-            <nav class="header-nav">
-                <a href="#">Home</a>
-                <a href="#">New</a>
-                <a href="#">Popular</a>
-                <a href="#">Trending</a>
-                <a href="#">Categories</a>
-            </nav>
+
+            <div class="icon-open"><img src="images/icon-menu.svg" alt="icon menu"></div>
+
+
+            <div class="modal-wrapper">
+                    <div class="menu">
+                        <img class="icon-close" src="images/icon-menu-close.svg" alt="">
+                        <nav class="header-nav">
+                            <a href="#">Home</a>
+                            <a href="#">New</a>
+                            <a href="#">Popular</a>
+                            <a href="#">Trending</a>
+                            <a href="#">Categories</a>
+                        </nav>
+                </div>
+            </div>
+
         </header>
 
         <section>
