@@ -234,7 +234,7 @@ footer {
     height: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 410px) {
 
     main {
         width: 100vw;
