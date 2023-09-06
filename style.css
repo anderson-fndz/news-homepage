@@ -27,7 +27,7 @@ header {
     grid-template-columns: 5rem 1fr 440px;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "logo . nav";
+        "logo . wrapper";
 }
 
 .menu {
@@ -40,7 +40,21 @@ header {
     align-content: center;
 }
 
-.menu-modal {
+.icon-open{
+    display: none;
+}
+
+.modal-wrapper{
+    grid-area: wrapper;
+}
+
+.menu{
+    height: 100%;
+    display: grid;
+    align-content: center;
+}
+
+.icon-close{
     display: none;
 }
 
@@ -220,7 +234,7 @@ footer {
     height: 10px;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 375px) {
 
     main {
         width: 100vw;
@@ -275,6 +289,7 @@ footer {
     }
 
     .icon-close {
+        display: block;
         position: fixed;
         right: 15px;
         top: 20px;
