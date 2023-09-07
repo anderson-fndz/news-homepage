@@ -236,8 +236,8 @@ footer {
 
 @media (max-width: 415px) {
 
-    bodY{
-        width: 100vw;
+    body{
+        width: 400px;
     }
 
     main {
