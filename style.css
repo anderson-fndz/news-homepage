@@ -237,7 +237,8 @@ footer {
 @media (max-width: 415px) {
 
     body {
-        width: 400px;
+        display: flex;
+        justify-content: center;
     }
 
     main {
@@ -247,7 +248,7 @@ footer {
         display: grid;
         grid-template-columns: 378px;
         justify-content: center;
-        grid-template-rows: 97px 775px 46rem 1fr;
+        grid-template-rows: 97px 773px 609px 497px;
         grid-template-areas:
             "header"
             "section"
@@ -376,13 +377,12 @@ footer {
         font-size: 1rem;
     }
 
-    aside {
-        width: 378px;
-        height: 42rem;
+    aside{
+        height: 541px;
     }
 
     .sidebar {
-        width: 90%;
+        width: 335px;
     }
 
     .sidebar-title {
@@ -395,17 +395,22 @@ footer {
 
     .sidebar-content p {
         font-size: 1rem;
+        line-height: 1.rem;
     }
 
     footer {
         width: 378px;
         grid-template-columns: 1fr;
-        grid-template-rows: 8rem 8rem 8rem;
-        grid-row-gap: 3rem;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 37px;
     }
 
     .footer-box {
         grid-template-columns: 120px 1fr;
+    }
+
+    .footer-img img{
+        height: 147px;
     }
 
     .footer-text span {
@@ -413,10 +418,12 @@ footer {
     }
 
     .footer-text h4 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
     }
 
     .footer-text p {
         font-size: 1rem;
+        line-height: 1.6rem;
     }
 }
