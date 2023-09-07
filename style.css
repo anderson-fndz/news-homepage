@@ -40,21 +40,21 @@ header {
     align-content: center;
 }
 
-.icon-open{
+.icon-open {
     display: none;
 }
 
-.modal-wrapper{
+.modal-wrapper {
     grid-area: wrapper;
 }
 
-.menu{
+.menu {
     height: 100%;
     display: grid;
     align-content: center;
 }
 
-.icon-close{
+.icon-close {
     display: none;
 }
 
@@ -236,7 +236,7 @@ footer {
 
 @media (max-width: 415px) {
 
-    body{
+    body {
         width: 400px;
     }
 
@@ -245,8 +245,9 @@ footer {
         height: auto;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 88px 1fr 46rem 1fr;
+        grid-template-columns: 378px;
+        justify-content: center;
+        grid-template-rows: 97px 775px 46rem 1fr;
         grid-template-areas:
             "header"
             "section"
@@ -258,7 +259,8 @@ footer {
 
     header {
         width: 378px;
-        height: 97px;
+        height: 100%;
+        margin: 0 auto;
         grid-template-columns: 1fr 1fr 3rem;
         justify-content: space-between;
         align-content: center;
@@ -267,7 +269,7 @@ footer {
     }
 
 
-    .logo img{
+    .logo img {
         width: 48px;
     }
 
@@ -277,7 +279,6 @@ footer {
         grid-area: menu;
         align-content: center;
         justify-content: end;
-        padding-right: 10px;
     }
 
     .modal-wrapper {
@@ -323,16 +324,18 @@ footer {
     }
 
     section {
-        width: 378px;
-        grid-template-columns: 95%;
-        grid-template-rows: 380px 200px 300px;
+        width: 100%;
+        height: 702px;
+        grid-template-columns: 100%;
+        grid-template-rows: 332px  132px 1fr;
         grid-template-areas:
             "img"
             "title"
             "readmore";
         justify-content: center;
-        grid-row-gap: 0px;
+        grid-row-gap: 25px;
     }
+
 
     .img-desktop {
         display: none;
@@ -345,31 +348,31 @@ footer {
     }
 
     .section-title {
-        display: grid;
-        align-content: end;
+        background-color: #C9C8CD;
+        height: 132px;
     }
 
     .section-title h1 {
-        font-size: 3.4rem;
-        line-height: 3.5rem;
+        font-size: 2.8rem;
+        line-height: 2.7rem;
     }
 
     .section-readmore {
         height: 100%;
-        align-content: space-around;
-        padding-bottom: 20px;
+        align-content: space-between;
     }
 
     .section-readmore p {
         display: block;
-        width: 90%;
+        width: 100%;
         font-size: 1rem;
-        line-height: 1.5rem;
+        line-height: 1.65rem;
+        word-spacing: 0.1rem;
     }
 
     .section-readmore button {
-        width: 200px;
-        height: 55px;
+        width: 205px;
+        height: 53px;
         font-size: 1rem;
     }
 
