@@ -259,7 +259,6 @@ footer {
     }
 
     header {
-        background-color: #C9C8CD;
         width: 22.5rem;
         height: 100%;
         margin: 0 auto;
@@ -272,11 +271,11 @@ footer {
 
 
     .logo img {
-        width: 48px;
+        width: 3rem;
     }
 
     .icon-open {
-        width: 50px;
+        width: 3.1rem;
         display: grid;
         grid-area: menu;
         align-content: center;
@@ -306,8 +305,8 @@ footer {
     .icon-close {
         display: block;
         position: fixed;
-        right: 15px;
-        top: 20px;
+        right: 0.9rem;
+        top: 1.2rem;
     }
 
     .header-nav {
@@ -327,15 +326,15 @@ footer {
 
     section {
         width: 100%;
-        height: 702px;
+        height: 43.9rem;
         grid-template-columns: 100%;
-        grid-template-rows: 332px  132px 1fr;
+        grid-template-rows: 20.8rem  8.25rem 1fr;
         grid-template-areas:
             "img"
             "title"
             "readmore";
         justify-content: center;
-        grid-row-gap: 25px;
+        grid-row-gap: 1.5rem;
     }
 
 
@@ -350,7 +349,6 @@ footer {
     }
 
     .section-title {
-        background-color: #C9C8CD;
         height: 132px;
     }
 
@@ -373,17 +371,17 @@ footer {
     }
 
     .section-readmore button {
-        width: 205px;
-        height: 53px;
+        width: 17.8rem;
+        height: 3.3rem;
         font-size: 1rem;
     }
 
     aside{
-        height: 541px;
+        height: 33.81rem;
     }
 
     .sidebar {
-        width: 335px;
+        width: 20rem;
     }
 
     .sidebar-title {
@@ -396,22 +394,22 @@ footer {
 
     .sidebar-content p {
         font-size: 1rem;
-        line-height: 1.rem;
+        line-height: 1.7rem;
     }
 
     footer {
-        width: 378px;
+        width: 23.6rem;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-row-gap: 37px;
+        grid-row-gap: 2.3rem;
     }
 
     .footer-box {
-        grid-template-columns: 120px 1fr;
+        grid-template-columns: 7.5rem 1fr;
     }
 
     .footer-img img{
-        height: 147px;
+        height: 9.18rem;
     }
 
     .footer-text span {
