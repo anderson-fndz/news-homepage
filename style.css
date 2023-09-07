@@ -237,7 +237,9 @@ footer {
 @media (max-width: 415px) {
 
     main {
-        width: 100vw;
+        width: 414px;
+        height: auto;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 88px 1fr 46rem 1fr;
@@ -251,8 +253,9 @@ footer {
     }
 
     header {
-        width: 95%;
-        margin: 0 auto;
+        width: 378px;
+        height: 97px;
+        margin-left: 15px;
         grid-template-columns: 1fr 1fr 3rem;
         justify-content: space-between;
         align-content: center;
@@ -261,11 +264,17 @@ footer {
     }
 
 
+    .logo{
+        width: 55px;
+    }
+
     .icon-open {
+        width: 50px;
         display: grid;
         grid-area: menu;
         align-content: center;
         justify-content: end;
+        padding-right: 10px;
     }
 
     .modal-wrapper {
@@ -311,8 +320,7 @@ footer {
     }
 
     section {
-        width: 30rem;
-        margin: 0 auto;
+        width: 378px;
         grid-template-columns: 95%;
         grid-template-rows: 380px 200px 300px;
         grid-template-areas:
@@ -363,8 +371,7 @@ footer {
     }
 
     aside {
-        width: 29rem;
-        margin: 0 auto;
+        width: 378px;
         height: 42rem;
     }
 
@@ -385,8 +392,7 @@ footer {
     }
 
     footer {
-        width: 29rem;
-        margin: 0 auto;
+        width: 378px;
         grid-template-columns: 1fr;
         grid-template-rows: 8rem 8rem 8rem;
         grid-row-gap: 3rem;
