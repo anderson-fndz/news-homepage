@@ -246,9 +246,9 @@ footer {
         height: auto;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 378px;
+        grid-template-columns: 22.5rem; /* 378px */
         justify-content: center;
-        grid-template-rows: 97px 773px 609px 497px;
+        grid-template-rows: 6rem 48.3rem 38rem 31rem;
         grid-template-areas:
             "header"
             "section"
@@ -259,7 +259,8 @@ footer {
     }
 
     header {
-        width: 378px;
+        background-color: #C9C8CD;
+        width: 22.5rem;
         height: 100%;
         margin: 0 auto;
         grid-template-columns: 1fr 1fr 3rem;
