@@ -236,8 +236,12 @@ footer {
 
 @media (max-width: 415px) {
 
+    bodY{
+        width: 100vw;
+    }
+
     main {
-        width: 414px;
+        width: 100%;
         height: auto;
         margin: 0 auto;
         display: grid;
@@ -255,7 +259,6 @@ footer {
     header {
         width: 378px;
         height: 97px;
-        margin-left: 15px;
         grid-template-columns: 1fr 1fr 3rem;
         justify-content: space-between;
         align-content: center;
@@ -264,8 +267,8 @@ footer {
     }
 
 
-    .logo{
-        width: 55px;
+    .logo img{
+        width: 48px;
     }
 
     .icon-open {
