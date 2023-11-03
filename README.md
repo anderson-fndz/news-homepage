@@ -1,5 +1,5 @@
 # news-homepage
-Challenge #6 - [link do projeto](https://anderson-fndz.github.io/news-homepage/)
+Challenge #6 - [link do projeto](https://anderson-fndz.github.io/news-homepage-grid/).
 
 ## Imagens do projeto:
 ![image](https://github.com/anderson-fndz/news-homepage/assets/103613700/295db8b2-3a3d-4975-b4da-22720348a0fa)
